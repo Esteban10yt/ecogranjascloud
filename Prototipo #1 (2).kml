@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Prototipo #1</name>
+	<description>Eco Granjas</description>
+	<gx:CascadingStyle kml:id="__managed_style_269834BB4724179EF4FB">
+		<Style>
+			<IconStyle>
+				<color>ffff0055</color>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_15E333202024179EF4FB">
+		<Style>
+			<IconStyle>
+				<color>ffff0055</color>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0BBC2687DF24179EF4FB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_15E333202024179EF4FB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_269834BB4724179EF4FB</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dollar">
+		<IconStyle>
+			<color>ff117c15</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dollar">
+		<IconStyle>
+			<color>ff117c15</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/dollar.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parks">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parks</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parks</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>d9429c42</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1F030007EE24179EF4F9">
+		<Style>
+			<IconStyle>
+				<color>ff000055</color>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7b8e9e</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0c7913</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>d9429c42</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_1321EF563424179EF4F5">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_water">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_water</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_water</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000055</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7b8e9e</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_2A7556551724179EF4F9">
+		<Style>
+			<IconStyle>
+				<color>ff000055</color>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7e979f</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7e979f</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffff00</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_parks">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_water">
+		<IconStyle>
+			<color>ffe5e51a</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/water.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_1E5688A93324179EF4F7">
+		<Style>
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff035181</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_dollar">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dollar</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dollar</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2C57AD9E7824179EF4F7">
+		<Style>
+			<IconStyle>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80943a30</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_2C7B44AB2F24179EF4F5">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.44</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_07B40554EF24179EF4F4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_11AAFE675D24179EF4F4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2D8EC807FA24179EF4F4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0A7DC26BB724179EF4F7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E5688A93324179EF4F7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C57AD9E7824179EF4F7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2D8EC807FA24179EF4F4">
+		<Style>
+			<IconStyle>
+				<color>ff00ff55</color>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sh_water">
+		<IconStyle>
+			<color>ffe5e51a</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/water.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff005500</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff0c7913</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="__managed_style_0000EF89FC24179EF4F5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1321EF563424179EF4F5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2C7B44AB2F24179EF4F5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>80943a30</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff035181</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_124C939ADB24179EF4F6">
+		<Style>
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff008a00</color>
+				<width>8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>0093b3c6</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_11AAFE675D24179EF4F4">
+		<Style>
+			<IconStyle>
+				<color>ff00ff55</color>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F9D09B0F024179EF4F9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1F030007EE24179EF4F9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2A7556551724179EF4F9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2DB2276FD424179EF4F6">
+		<Style>
+			<IconStyle>
+				<scale>1.56</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff008a00</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>0093b3c6</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Style id="sn_parks">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>https://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="__managed_style_082F25CD1724179EF4F6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_124C939ADB24179EF4F6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2DB2276FD424179EF4F6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="1D6E680E43241702EFB2">
+		<name>Terreno</name>
+		<description>Eco Granjas</description>
+		<LookAt>
+			<longitude>-72.75185005052576</longitude>
+			<latitude>7.311393763378895</latitude>
+			<altitude>2685.398265775</altitude>
+			<heading>20.13822215175296</heading>
+			<tilt>23.57254398985506</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>506.5816639587865</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_082F25CD1724179EF4F6</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.75204560106901,7.31252085394471,16 -72.75189750342541,7.312114598878008,16 -72.7519750238844,7.311771835791245,16 -72.752116443494,7.311520570135302,16 -72.75231122459716,7.3111975188632,16 -72.75243794809505,7.310988943487394,16 -72.75245933957656,7.310765735652339,16 -72.7523798660674,7.31052902220868,16 -72.75114798043379,7.310147048002555,16 -72.75101341033587,7.310152460307509,16 -72.75019140759834,7.31146119149097,16 -72.75111070415062,7.312220255724407,16 -72.75147308447816,7.312729041674666,16 -72.75204560106901,7.31252085394471,16 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0C42F87F44241702EFB3">
+		<name>Propiedad</name>
+		<LookAt>
+			<longitude>-72.75165417425137</longitude>
+			<latitude>7.311263082995972</latitude>
+			<altitude>2686.185655012107</altitude>
+			<heading>56.79150898470773</heading>
+			<tilt>2.415292086309835</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>446.3755318618496</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_07B40554EF24179EF4F4</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-72.75192564531278,7.310381786214494,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="047E57C8B2241702EFAF">
+		<name>Almacenamiento</name>
+		<LookAt>
+			<longitude>-72.75176570316594</longitude>
+			<latitude>7.310992456348596</latitude>
+			<altitude>2696.027849365025</altitude>
+			<heading>141.2066550391522</heading>
+			<tilt>28.88027881394981</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>100.4332826083115</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A7DC26BB724179EF4F7</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.75169995490215,7.310913597524937,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="106BC06CF7241702EFAE">
+		<name>Almacenamiento</name>
+		<description><![CDATA[<div>Espacio destinado para el almacenamiento de la producción y productos agropecuarios requeridos por la finca.<br></div>]]></description>
+		<LookAt>
+			<longitude>-72.75145398137032</longitude>
+			<latitude>7.310973363105751</latitude>
+			<altitude>2692.543318682441</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>267.3317753163428</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0000EF89FC24179EF4F5</styleUrl>
+		<Placemark id="01349A3F53241702EFB0">
+			<name>Almacenamiento</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<gx:drawOrder>1</gx:drawOrder>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-72.75172372857499,7.310969929071508,3 -72.75174779565292,7.310910561103612,3 -72.75168487900146,7.310881743730152,3 -72.75166011878129,7.310940617968067,3 -72.75172372857499,7.310969929071508,3 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Placemark id="284310BBB6241702EFB0">
+		<name>Reservorio</name>
+		<Camera>
+			<longitude>-72.75262845121617</longitude>
+			<latitude>7.310959596337439</latitude>
+			<altitude>59.5582701309687</altitude>
+			<heading>129.6945313776559</heading>
+			<tilt>40.57712381196264</tilt>
+			<roll>0.8556824271130944</roll>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</Camera>
+		<styleUrl>#msn_water</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.75219523211246,7.310641796815347,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="090EFF10F0241702EFB1">
+		<name>Reservorio</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<gx:drawOrder>1</gx:drawOrder>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.75223518085562,7.310736014064143,1 -72.75226869976287,7.310573031942337,1 -72.75213446937738,7.31054228225268,1 -72.75210300196497,7.310700244334842,1 -72.75223518085562,7.310736014064143,1 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="00290C3578241702EFB6">
+		<name>Vía de Acceso</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<gx:drawOrder>1</gx:drawOrder>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.75084770949481,7.310443265769755,1 -72.75095506691409,7.310312924746136,1 -72.75099799925404,7.310253637580139,1 -72.75103234526222,7.310199605823099,1 -72.75106935632199,7.31017964122586,1 -72.75110206935632,7.310177774785739,1 -72.75116206481462,7.310174577200626,1 -72.75121522204746,7.310186651396589,1 -72.75127049197795,7.310202137088264,1 -72.75131821484572,7.310219248259504,1 -72.75138186672731,7.310242830061997,1 -72.75142707131742,7.310260987746412,1 -72.75150194292731,7.310287612199732,1 -72.75155968593192,7.310317217587549,1 -72.75161876140814,7.310346043562535,1 -72.75166249299608,7.310365894331949,1 -72.75169799901754,7.310387763809986,1 -72.75171565663908,7.310412591214078,1 -72.7517459479283,7.310452713564606,1 -72.75176570223017,7.310488945821577,1 -72.75177745980226,7.310507447886793,1 -72.7517842030348,7.310542100638039,1 -72.75180254429874,7.310687868946534,1 -72.75181773956579,7.310763521613529,1 -72.7518192778594,7.310886454930083,1 -72.75182188585893,7.310960825296097,1 -72.75181844650271,7.311005302097033,1 -72.75179497102827,7.311040653332974,1 -72.75177078210152,7.311066804202234,1 -72.75174371885333,7.311085598338892,1 -72.75171724216108,7.311091756725435,1 -72.75166581612687,7.311090318886888,1 -72.75142623732658,7.311053527737755,1 -72.75141674554533,7.311082595107049,1 -72.75166013546659,7.311127702008941,1 -72.75172688001774,7.311119456021572,1 -72.75176006687093,7.311110052523573,1 -72.75179413178381,7.311089265798015,1 -72.75181422749908,7.311058974785807,1 -72.75183869027606,7.31101577002558,1 -72.75184865087573,7.310970114559179,1 -72.75184412298903,7.310893129009244,1 -72.75184906698337,7.310774468946809,1 -72.75183148967928,7.31073033242199,1 -72.75183141804669,7.310661746368083,1 -72.75180839783978,7.310596572645976,1 -72.75179727844251,7.31051231126215,1 -72.75176004834287,7.310417015097219,1 -72.7517368984295,7.310391927236154,1 -72.75170173742094,7.310362949485321,1 -72.75165066121666,7.310326104403946,1 -72.75156336692156,7.310274797133053,1 -72.75142856742441,7.310232769858184,1 -72.75114476667295,7.310146695996529,1 -72.751117841387,7.310148723863425,1 -72.75101565310943,7.310153915427672,1 -72.75091149556562,7.310313934442812,1 -72.75082609960836,7.310451910660002,1 -72.75084770949481,7.310443265769755,1 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0200E281E9241702EFB7">
+		<name>Vía de Acceso</name>
+		<LookAt>
+			<longitude>-72.75094823493028</longitude>
+			<latitude>7.310934446182818</latitude>
+			<altitude>2691.640264199072</altitude>
+			<heading>20.91165952146635</heading>
+			<tilt>6.937920294202261</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>601.6038415132061</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F9D09B0F024179EF4F9</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-72.75158328220969,7.310325035353264,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E8E338B0A241702EFB8">
+		<name>Zona Verde</name>
+		<styleUrl>#msn_ylw-pushpin1</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.75146976725134,7.312742770631341,4.999999999999999 -72.7520366862321,7.312523500839772,4.999999999999999 -72.75189502579717,7.312113755006159,4.999999999999999 -72.75199367390364,7.311745534062051,4.999999999999999 -72.75227538593089,7.311273735299935,4.999999999999999 -72.75237117134064,7.311105176059292,4.999999999999999 -72.75244369576205,7.310992243314852,4.999999999999999 -72.75245387737532,7.310825108975432,4.999999999999999 -72.75183072762664,7.310661165575812,4.999999999999999 -72.7518323105343,7.310729932020513,4.999999999999999 -72.7518488415334,7.31077310754987,4.999999999999999 -72.75184767344551,7.310823749668311,4.999999999999999 -72.75184612792225,7.31089075575987,4.999999999999999 -72.75184827284879,7.310978936895302,4.999999999999999 -72.75183867673607,7.311021958166806,4.999999999999999 -72.75179407911429,7.311093279963255,4.999999999999999 -72.75176302767522,7.311111337793482,4.999999999999999 -72.75168262308856,7.311129414206017,4.999999999999999 -72.75165825060323,7.311130774410413,4.999999999999999 -72.7517624652653,7.31121661324637,4.999999999999999 -72.75208516559017,7.311285155092485,4.999999999999999 -72.75164236930348,7.311996554515924,4.999999999999999 -72.75174131947273,7.312254167116291,4.999999999999999 -72.75139829201558,7.312387048691273,4.999999999999999 -72.75119635115483,7.312144973028198,4.999999999999999 -72.75037794087929,7.311397105968246,4.999999999999999 -72.7504163052466,7.311329065023273,4.999999999999999 -72.75050855288562,7.311201039818026,4.999999999999999 -72.75060684424571,7.311036987812271,4.999999999999999 -72.75071469928699,7.310863004662644,4.999999999999999 -72.7507958796491,7.310727523102974,4.999999999999999 -72.75069714372863,7.310661818974443,4.999999999999999 -72.75061959900758,7.3107743165453,4.999999999999999 -72.75050365313841,7.310958693381002,4.999999999999999 -72.75040867219515,7.311135731211699,4.999999999999999 -72.75031105649207,7.311274886524852,4.999999999999999 -72.75021408836919,7.311402077861966,4.999999999999999 -72.75019894424179,7.311457857934106,4.999999999999999 -72.75033814746951,7.311573535384349,4.999999999999999 -72.75055306846966,7.311740813156884,4.999999999999999 -72.75111741114753,7.312220149147501,4.999999999999999 -72.75146976725134,7.312742770631341,4.999999999999999 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="044C3A6832241702EFB9">
+		<name>Zona Verde</name>
+		<LookAt>
+			<longitude>-72.75104825879946</longitude>
+			<latitude>7.312492160169648</latitude>
+			<altitude>0</altitude>
+			<heading>-42.36540217466422</heading>
+			<tilt>37.75404488654773</tilt>
+			<range>554.9600134851221</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_parks</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.75158630015483,7.312473693091525,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FA6CDDBBE241702EFBC">
+		<name>Área productiva</name>
+		<LookAt>
+			<longitude>-72.75111402441132</longitude>
+			<latitude>7.310663992439228</latitude>
+			<altitude>0</altitude>
+			<heading>39.4500557347416</heading>
+			<tilt>21.42383018843663</tilt>
+			<range>395.9648437742549</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_dollar</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.75115261505253,7.310985482898154,1</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A64C37AA8241702EFBB">
+		<name>Área Productiva</name>
+		<styleUrl>#msn_ylw-pushpin3</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.751644107828,7.31199841102692,1 -72.75208540978225,7.311284808257945,1 -72.75175457181862,7.311211836457867,1 -72.75165779654027,7.311128855393007,1 -72.75160881485942,7.311119447228621,1 -72.75157147901263,7.311112783642922,1 -72.7514893254416,7.311095565237457,1 -72.75145427138281,7.311087308635038,1 -72.75142075063017,7.311081546691236,1 -72.75142458366059,7.311052717490329,1 -72.75160342359418,7.311080085113848,1 -72.75168392814207,7.310882207178495,1 -72.75181624302941,7.310913372461841,1 -72.75181909922577,7.310784233085005,1 -72.75180503651384,7.310687337701781,1 -72.75179540196602,7.310612859676167,1 -72.7517862039781,7.310522497367251,1 -72.75175106838549,7.310457525030245,1 -72.75170530504803,7.310393047983008,1 -72.75165501602616,7.310362268024402,1 -72.75153440455732,7.31030195802605,1 -72.75144263492443,7.310265454381216,1 -72.75130868463964,7.310215403856073,1 -72.75116519714359,7.310176080743972,1 -72.75107613746766,7.310177274543234,1 -72.75103307369776,7.310198842693193,1 -72.75084287262506,7.31044603891667,1 -72.75070105039268,7.310668016721906,1 -72.75079633115655,7.310729073133331,1 -72.75070677501787,7.310873098853531,1 -72.75036880123724,7.311393623247285,1 -72.75119177908365,7.312143003871951,1 -72.75139563462734,7.312387210731062,1 -72.7517474751785,7.31226155093245,1 -72.751644107828,7.31199841102692,1 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="01AACC0CF2241702EFB4">
+		<name>Vivienda</name>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<gx:drawOrder>1</gx:drawOrder>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-72.7517342358027,7.311057528451498,3 -72.75176542602114,7.310988210956057,3 -72.75166121817563,7.310941310577502,3 -72.75163250959329,7.311013964462465,3 -72.7517342358027,7.311057528451498,3 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0D8B396EAA241702EFB5">
+		<name>Vivienda</name>
+		<LookAt>
+			<longitude>-72.75176570316594</longitude>
+			<latitude>7.310992456348596</latitude>
+			<altitude>0</altitude>
+			<heading>141.2066550391522</heading>
+			<tilt>28.88027881394981</tilt>
+			<range>100.4332826083115</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0BBC2687DF24179EF4FB</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-72.75172839438564,7.311042444434008,1</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
